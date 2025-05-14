@@ -17,4 +17,6 @@ public interface UserService {
 
     User handleUpdateUser(User reqUser);
 
+    User handleGetUserByUsername(String username);
+
 }
